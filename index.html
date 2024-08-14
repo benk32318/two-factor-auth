@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FA Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Two-Factor Authentication (2FA) Demo</h1>
+        <p id="random-code"></p>
+        <button onclick="generateRandomCode()">Generate Random Code</button>
+
+        <h2>2FA Verification</h2>
+        <input type="text" id="otp-input" placeholder="Enter OTP">
+        <button onclick="verifyOtp()">Verify OTP</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
